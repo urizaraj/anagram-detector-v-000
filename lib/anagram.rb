@@ -1,4 +1,6 @@
 class Anagram
-  def initialize(word)
+  def initialize(word, anagrams)
     @argument = argument
   end
+
+end

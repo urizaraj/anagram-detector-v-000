@@ -12,7 +12,7 @@ class Anagram
 
   def word_to_hist(word)
     result = {}
-    word.each do |char|
+    word.each_char do |char|
       result.has_key?(char) ? result[char] += 1 : result[char] = 1
     end
     result

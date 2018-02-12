@@ -6,7 +6,7 @@ class Anagram
 
   def match(anagrams)
     result = anagrams.select do |anagram|
-
+      word_to_hist(word) == word_to_hist(anagram)
     end
   end
 

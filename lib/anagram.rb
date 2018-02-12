@@ -5,7 +5,16 @@ class Anagram
   end
 
   def match(anagrams)
-    anagrams.select { |anagram|  }
+    result = anagrams.select do |anagram|
+
+    end
   end
 
+  def word_to_hist(word)
+    result = {}
+    word.each do |char|
+      result.has_key?(char) ? result[char] += 1 : result[char] = 1
+    end
+    result
+  end
 end

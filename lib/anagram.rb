@@ -5,7 +5,7 @@ class Anagram
   end
 
   def match(anagrams)
-
+    anagrams.select { |anagram|  }
   end
 
 end

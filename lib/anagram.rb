@@ -4,4 +4,8 @@ class Anagram
     self.word = word
   end
 
+  def match(anagrams)
+
+  end
+
 end
